@@ -3,13 +3,14 @@ This is a script (and libraries python-nmap, slacker) to portscan the AWS assets
 It is intended to be run from AWS Lambda, but can be run from any python environment with the libraries installed.
 As such, it is neccessary to package the code and libraries for deploy to AWS Lambda. 
 
+Please note you will need to update the SLACK API KEY in NmapLAmbdaPortScan.py (Line 10)
 ### Prepare a dev environment
 If you choose to develop this script further you should prepare a python virtualenv. e.g. 
 ```
 #Get the source
 cd /path/to/parentdir_of_repo
 #get source
-git clone 
+git clone https://github.com/Srendi/AWS-SCAN.git
 #Prepare a virtual env for dev
 pip install virtualenv
 virtualenv ./aws-asset-external-port-scan
