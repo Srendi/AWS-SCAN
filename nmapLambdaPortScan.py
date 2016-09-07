@@ -6,7 +6,7 @@ import socket
 from multiprocessing import Process, freeze_support
 from slacker import Slacker
 	
-def Send2Slack(message, channel='#dart-logs'):
+def Send2Slack(message, channel='#Slack-Channel'):
 	slack = Slacker('BLAHKEY')
 	slack.chat.post_message(channel, message)
 	
