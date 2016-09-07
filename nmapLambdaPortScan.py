@@ -6,8 +6,8 @@ import socket
 from multiprocessing import Process, freeze_support
 from slacker import Slacker
 	
-def Send2Slack(message, channel='#Slack-Channel'):
-	slack = Slacker('BLAHKEY')
+def Send2Slack(message, channel='#General'):
+	slack = Slacker('xoxp-77218513845-77163231587-77222556855-ec5a052950')
 	slack.chat.post_message(channel, message)
 	
 def scan(scanhost):
