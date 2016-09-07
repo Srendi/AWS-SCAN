@@ -1,0 +1,6 @@
+python-nmap
+slacker
+six
+cryptography
+python-whois
+futures
