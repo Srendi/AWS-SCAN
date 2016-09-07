@@ -13,16 +13,16 @@ cd /path/to/parentdir_of_repo
 git clone https://github.com/Srendi/AWS-SCAN.git
 #Prepare a virtual env for dev
 pip install virtualenv
-virtualenv ./aws-asset-external-port-scan
-cd ./aws-asset-external-port-scan
+virtualenv ./AWS-SCAN
+cd ./AWS-SCAN
 
 #Activate the environment
 # Linux
-source /path/to/aws-asset-external-port-scan/bin/activate
+source /path/to/AWS-SCAN/bin/activate
 #Windows CMD
-C:\path\to\aws-asset-external-port-scan\Scripts\activate.bat
+C:\path\to\AWS-SCAN\Scripts\activate.bat
 #Windows PowerShell
-C:\path\to\aws-asset-external-port-scan\Scripts\activate.ps1
+C:\path\to\AWS-SCAN\Scripts\activate.ps1
 # Install requirements
 pip install -r requirements.txt
 ```
