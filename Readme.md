@@ -1,3 +1,8 @@
+### Notice
+This script is obsolete. See [Better AWS Scanner](https://github.com/Srendi/Better-AWS-SCAN)
+
+
+
 ### Description
 This is a script (and libraries python-nmap, slacker) to portscan the AWS assets and send the results to slack.
 It is intended to be run from AWS Lambda, but can be run from any python environment with the libraries installed.
